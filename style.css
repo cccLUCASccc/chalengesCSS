@@ -1,5 +1,5 @@
 html{
-    background-color: rgba(44, 45, 101, 1);
+    background: linear-gradient(rgba(44, 45, 101, 1), rgba(32, 31, 34, 1));
 }
 .container{
     position: relative;
@@ -153,7 +153,7 @@ h4{
     gap: 35px;
 }
 .article{
-    background-color: rgba(77, 79, 149, 1);
+    background: linear-gradient(rgba(77, 79, 149, 1), rgba(43, 45, 102, 1));
     border-radius: 2%;
 }
 .article img{
