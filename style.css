@@ -69,9 +69,10 @@ p{
     background-color: rgba(230, 96, 108, 1);
     border-radius: 75px;
     padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-decoration: none;
     font-family: "Barlow";
-    margin-top: 20px;
 }
 #lien2{
     position: relative;
@@ -82,6 +83,8 @@ p{
     background-color: white;
     border-radius: 75px;
     padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-decoration: none;
     font-family: "Barlow";
     margin-left: 20px;
@@ -109,6 +112,20 @@ h4{
     width: 50%;
     margin: 0 auto;
 }
+#lien3{
+    position: relative;
+    bottom: 160px;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: white;
+    background-color: rgba(230, 96, 108, 1);
+    border-radius: 75px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: "Barlow";
+}
 #ipsum{
     display: flex;
     justify-content: center;
@@ -119,10 +136,14 @@ h4{
     bottom: 250px;
 }
 .part3{
+    position: relative;
+    bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 35px;
 }
 .article{
     background-color: rgba(77, 79, 149, 1);
@@ -142,6 +163,7 @@ h4{
 .date{
     display: block;
     font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
 }
 .foot1{
     display: flex;
@@ -151,12 +173,11 @@ h4{
 }
 .foot1 ul{
     position: relative;
-    right: 65px;
-    left: 80px;
+    left:52px;
 }
 .foot1 h4{
     position: relative;
-    left: 100px;
+    left: 95px;
 }
 .foot1 img{
     object-fit: contain;
@@ -203,6 +224,7 @@ h4{
 }
 #deco4{
     position: relative;
+    z-index: -1;
     bottom: 400px;
     left: 250px
 }
