@@ -141,6 +141,7 @@ h4{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: "Barlow";
 }
 #deco2{
     position: relative;
@@ -170,11 +171,13 @@ h4{
     margin-left: 10%;
     margin-right: 20%;
     font-weight: 200;
+    font-family: "Barlow";
 }
 .date{
     display: block;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.5);
+    font-family: "Barlow";
 }
 .foot1{
     display: flex;
@@ -189,6 +192,7 @@ h4{
 .foot1 h4{
     position: relative;
     left: 95px;
+    font-family: "Barlow";
 }
 .foot1 img{
     object-fit: contain;
@@ -212,6 +216,7 @@ h4{
     margin: 10px;
     background-color: rgba(99, 87, 246, 1);
     border-radius: 100%;
+    font-family: "Barlow";
 }
 .foot2{
     display: flex;
