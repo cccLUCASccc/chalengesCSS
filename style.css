@@ -1,41 +1,48 @@
 html{
     background-color: rgba(44, 45, 101, 1);
 }
-
 .container{
+    position: relative;
     margin: 0 auto;
     width: 95%;
+    z-index: 1;
 }
 .container header{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    z-index: 2;
 }
-
 .container header nav ul{
+    position: relative;
     display: flex;
     flex-direction: row;
+    z-index: 2;
 }
 
 .container header nav ul li{
+    position: relative;
     list-style-type: none;
     padding: 5px;
     color: white;
     font-size: 14px;
     line-height: 16.8px;
     font-family: "Barlow";
+    z-index: 2;
 }
 
 .container header img{
-    width: 121px;
-    height: 38px;
+    position: relative;
     padding: 10px;
     object-fit: contain;
+    right: 240px;
+    z-index: 2;
 }
 
 .part1{
     display: grid;
+    margin-top: 100px;
     width: 100%;
     grid-template-columns: 45% 45%;
     grid-template-rows: 45% 45%;
@@ -91,9 +98,9 @@ p{
 }
 #forme1{
     position: relative;
-    left: 100px;
-    bottom: 100px;
-    z-index: -1;
+    left: 50px;
+    bottom: 200px;
+    z-index: 10;
 }
 h2{
     font-size: 52px;
@@ -225,8 +232,8 @@ h4{
 #deco4{
     position: relative;
     z-index: -1;
-    bottom: 400px;
-    left: 250px
+    bottom: 500px;
+    left: 150px
 }
 #deco5{
     position: relative;
@@ -237,4 +244,9 @@ h4{
     position: relative;
     bottom: 350px;
     right: 200px;
+}
+#part1intro{
+    position:relative;
+    left: 80px;
+    width: 70%;
 }
